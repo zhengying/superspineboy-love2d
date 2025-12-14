@@ -105,7 +105,7 @@ function Model:restart()
 
     -- Performance test: Add many enemies
     for i = 1, 5 do
-        self:addTrigger(5 + i * 2, 5 + i * 2 + 10, 8, "normal", 20)
+        self:addTrigger(5 + i * 2, 5 + i * 2 + 10, 8, "normal", 1)
     end
 end
 
